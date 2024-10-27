@@ -12,7 +12,7 @@
   "license": "Apache License 2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mahabubarafat-st/memory-profiler.git"
+    "url": "git@github.com:sharetripnet/memory-profiler.git"
   },
   "dependencies": {
     "dotenv": "16.4.5",
