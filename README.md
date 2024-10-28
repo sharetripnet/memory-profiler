@@ -32,7 +32,7 @@ ENABLE_MEMORY_PROFILING_DECORATOR=true
 
 ```typescript
 import { Injectable } from '@nestjs/common';
-import { ProfileAllMethods } from '@sharetrip/memory-profiler';
+import { ProfileAllMethods } from 'sharetrip-memory-profiler';
 
 @Injectable()
 @ProfileAllMethods()
@@ -66,7 +66,7 @@ To apply memory profiling to all methods in a service class, use the `ProfileAll
 
 ```typescript
 import { Injectable } from '@nestjs/common';
-import { ProfileAllMethods } from '@sharetrip/memory-profiler';
+import { ProfileAllMethods } from 'sharetrip-memory-profiler';
 
 @Injectable()
 @ProfileAllMethods()
@@ -80,7 +80,7 @@ export class SomeService {
 For profiling individual synchronous functions, use `ProfileMemorySyncFunction`:
 
 ```typescript
-import { ProfileMemorySyncFunction } from '@sharetrip/memory-profiler';
+import { ProfileMemorySyncFunction } from 'sharetrip-memory-profiler';
 
 export class SomeService {
     @ProfileMemorySyncFunction()
